@@ -12,9 +12,10 @@ You will need:
 
 Next up:
 
-1. Copy the build environment example `cp .env.example .env`
+1. Copy the build environment example:   
+  `cp .env.example .env`
 2. Put the information you gathered above in
-3. Add them to your Vercel app as secrets:
-   `vercel secrets add raindrop-token [value]`
-   `vercel secrets add raindrop-collection-id [value]`
+3. Add them to your Vercel app as secrets:   
+  `vercel secrets add raindrop-token [value]`   
+  `vercel secrets add raindrop-collection-id [value]`
 3. You can now run `npm run now` to start.
