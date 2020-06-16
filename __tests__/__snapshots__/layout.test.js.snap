@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component - layout should render 1`] = `
+<main
+  className="jsx-1573880168 measure center sans-serif ph2 "
+>
+  <h1
+    className="jsx-1573880168 lh-title fw1 f2"
+  >
+    <a
+      className="jsx-1573880168 no-underline"
+      href="/"
+    >
+      <img
+        alt="illustration by supasavina"
+        className="jsx-1573880168 mr2 h3 w3 v-mid"
+        src="/static/logo.png"
+      />
+      melkat.link
+    </a>
+  </h1>
+  <footer
+    className="jsx-1573880168 lh-copy tc"
+  >
+    <p
+      className="jsx-1573880168"
+    >
+      a link blog by 
+      <a
+        className="jsx-1573880168"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+    <p
+      className="jsx-1573880168"
+    >
+      logo by 
+      <a
+        className="jsx-1573880168"
+        href="https://savinaxu.com"
+      >
+        savina xu
+      </a>
+       • 
+      links from 
+      <a
+        className="jsx-1573880168"
+        href="https://raindrop.io/collection/9554731"
+        rel="me"
+      >
+        raindrop.io
+      </a>
+    </p>
+  </footer>
+</main>
+`;
+
+exports[`component - layout should render with props 1`] = `
+<main
+  className="jsx-1573880168 measure center sans-serif ph2 "
+>
+  <h1
+    className="jsx-1573880168 lh-title fw1 f2"
+  >
+    <a
+      className="jsx-1573880168 no-underline"
+      href="/"
+    >
+      <img
+        alt="illustration by supasavina"
+        className="jsx-1573880168 mr2 h3 w3 v-mid"
+        src="/static/logo.png"
+      />
+      melkat.link
+    </a>
+  </h1>
+  <b>
+    #content
+  </b>
+  <footer
+    className="jsx-1573880168 lh-copy tc"
+  >
+    <p
+      className="jsx-1573880168"
+    >
+      a link blog by 
+      <a
+        className="jsx-1573880168"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+    <p
+      className="jsx-1573880168"
+    >
+      logo by 
+      <a
+        className="jsx-1573880168"
+        href="https://savinaxu.com"
+      >
+        savina xu
+      </a>
+       • 
+      links from 
+      <a
+        className="jsx-1573880168"
+        href="https://raindrop.io/collection/9554731"
+        rel="me"
+      >
+        raindrop.io
+      </a>
+    </p>
+  </footer>
+</main>
+`;

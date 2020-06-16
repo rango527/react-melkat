@@ -1,0 +1,41 @@
+{
+  "name": "melkat.link",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "Unlicense",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "lint": "standard",
+    "next": "next",
+    "now": "vercel dev",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.0",
+    "standard": "^14.3.3",
+    "vercel": "^19.1.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "standard": {
+    "env": "jest"
+  }
+}

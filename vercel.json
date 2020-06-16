@@ -1,0 +1,6 @@
+{
+  "env": {
+    "RAINDROP_TOKEN": "@raindrop-token",
+    "RAINDROP_COLLECTION_ID": "@raindrop-collection-id"
+  }
+}
