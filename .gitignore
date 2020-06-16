@@ -1,9 +1,9 @@
 .DS_Store
 .env
 .env.build
-.next/*
+.next/
 .now
 .vercel
-coverage/*
-node_modules/*
-out/*
+coverage/
+node_modules/
+out/
