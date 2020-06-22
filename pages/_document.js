@@ -14,6 +14,7 @@ class MyDocument extends Document {
           <link rel='alternate' type='application/rss+xml' title='melkat.link' href='https://raindrop.io/collection/9554731/feed' />
           <link rel='apple-touch-icon' href='/static/apple-touch-icon.png' />
           <link rel='icon' href='/static/favicon.ico' />
+          <link rel='mask-icon' sizes='any' href='/static/mask-icon.svg' color='#00d6ff' />
           <meta charSet='utf-8' />
           <meta name='keywords' content='melkat, melanie, kat, link, blog, bookmarks' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
