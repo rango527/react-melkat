@@ -17,7 +17,6 @@ class MyDocument extends Document {
           <link rel='mask-icon' sizes='any' href='/static/mask-icon.svg' color='#00d6ff' />
           <meta charSet='utf-8' />
           <meta name='keywords' content='melkat, melanie, kat, link, blog, bookmarks' />
-          <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <meta property='og:image:height' content='630' />
           <meta property='og:image:width' content='1200' />
           <meta property='og:type' content='website' />
