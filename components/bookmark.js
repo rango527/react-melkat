@@ -7,7 +7,7 @@ import Tags from './tags'
 import Title from './title'
 
 const cx = {
-  article: 'measure pb4 mb4 bb'
+  article: 'pb4 mb4 pb5-l mb5-l bb'
 }
 
 const Bookmark = ({ _id, cover, created, domain, excerpt, link, tags, title, type }) => {
