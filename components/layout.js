@@ -4,8 +4,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 const cx = {
-  main: 'measure center sans-serif ph2',
-  header: 'lh-title fw1 f2',
+  main: 'measure measure-wide-l center sans-serif ph2',
+  header: 'lh-title fw1 f2 pb3-l mb4-l',
   headerLink: 'no-underline',
   logo: 'mr2 h3 w3 v-mid',
   footer: 'lh-copy tc'
@@ -36,11 +36,14 @@ const Layout = ({ title, description, children, className, cover }) => {
             color: #0096DB;
             text-decoration: none;
           }
+          a:hover {
+            text-decoration: underline;
+          }
           h1 a {
             color: #fff;
           }
           article {
-            border-color: rgb(255,255,255,.2);
+            border-color: rgb(255,255,255,.25);
           }
           @media (prefers-color-scheme: light) {
             body {
@@ -51,7 +54,7 @@ const Layout = ({ title, description, children, className, cover }) => {
               color: #111;
             }
             article {
-              border-color: rgba(0,0,0,.2);
+              border-color: rgba(0,0,0,.12);
             }
         `}
       </style>
@@ -74,7 +77,7 @@ const Layout = ({ title, description, children, className, cover }) => {
         </p>
         <p>
           {'logo by '}
-          <a href='https://savinaxu.com'>
+          <a href='https://www.savinaxu.com'>
             {'savina xu'}
           </a>
           {' • '}
