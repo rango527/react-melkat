@@ -7,7 +7,7 @@ const cx = {
   main: 'measure measure-wide-l center sans-serif ph2',
   header: 'lh-title fw1 f2 pb3-l mb4-l',
   headerLink: 'no-underline',
-  logo: 'mr2 h3 w3 v-mid',
+  logo: 'mr2 h3 v-mid',
   footer: 'lh-copy tc'
 }
 

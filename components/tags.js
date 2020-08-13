@@ -7,7 +7,7 @@ import map from 'lodash/map'
 
 const cx = {
   li: 'dib pr1 ttu',
-  ul: 'list lh-copy pl0 mv0 f6 o-80'
+  ul: 'list lh-copy pl0 mv0 f6 o-90'
 }
 
 const Tags = ({ id, tags, type }) => {

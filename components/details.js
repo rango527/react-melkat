@@ -4,7 +4,7 @@ import Domain from './domain'
 import Time from './time'
 
 const cx = {
-  details: 'ttu lh-copy f6 mb3 o-80'
+  details: 'ttu lh-copy f6 mb3 o-90'
 }
 
 const Details = ({ created, domain, seperator }) => {
