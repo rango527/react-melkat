@@ -45,6 +45,9 @@ const Layout = ({ title, description, children, className, cover }) => {
           article {
             border-color: rgb(255,255,255,.25);
           }
+          .cv-auto {
+            content-visibility: auto;
+          }
           @media (prefers-color-scheme: light) {
             body {
               color: #111;
