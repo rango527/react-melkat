@@ -2,34 +2,34 @@
 
 exports[`component - layout should render 1`] = `
 <main
-  className="jsx-1756277576 measure measure-wide-l center sans-serif ph2 "
+  className="jsx-490724098 measure measure-wide-l center sans-serif ph2 "
 >
   <h1
-    className="jsx-1756277576 lh-title fw1 f2 pb3-l mb4-l"
+    className="jsx-490724098 lh-title fw1 f2 pb3-l mb4-l"
   >
     <a
-      className="jsx-1756277576 no-underline"
+      className="jsx-490724098 no-underline"
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
     >
       <img
         alt="illustration by supasavina"
-        className="jsx-1756277576 mr2 h3 v-mid"
+        className="jsx-490724098 mr2 h3 v-mid"
         src="/logo.png"
       />
       melkat.link
     </a>
   </h1>
   <footer
-    className="jsx-1756277576 lh-copy tc"
+    className="jsx-490724098 lh-copy tc"
   >
     <p
-      className="jsx-1756277576"
+      className="jsx-490724098"
     >
       a link blog by 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://melaniekat.com"
         rel="me"
       >
@@ -38,11 +38,11 @@ exports[`component - layout should render 1`] = `
        &lt;3
     </p>
     <p
-      className="jsx-1756277576"
+      className="jsx-490724098"
     >
       logo by 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://www.savinaxu.com"
       >
         savina xu
@@ -50,7 +50,7 @@ exports[`component - layout should render 1`] = `
        • 
       links from 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://raindrop.io/collection/9554731"
         rel="me"
       >
@@ -63,20 +63,20 @@ exports[`component - layout should render 1`] = `
 
 exports[`component - layout should render with props 1`] = `
 <main
-  className="jsx-1756277576 measure measure-wide-l center sans-serif ph2 "
+  className="jsx-490724098 measure measure-wide-l center sans-serif ph2 "
 >
   <h1
-    className="jsx-1756277576 lh-title fw1 f2 pb3-l mb4-l"
+    className="jsx-490724098 lh-title fw1 f2 pb3-l mb4-l"
   >
     <a
-      className="jsx-1756277576 no-underline"
+      className="jsx-490724098 no-underline"
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
     >
       <img
         alt="illustration by supasavina"
-        className="jsx-1756277576 mr2 h3 v-mid"
+        className="jsx-490724098 mr2 h3 v-mid"
         src="/logo.png"
       />
       melkat.link
@@ -86,14 +86,14 @@ exports[`component - layout should render with props 1`] = `
     #content
   </b>
   <footer
-    className="jsx-1756277576 lh-copy tc"
+    className="jsx-490724098 lh-copy tc"
   >
     <p
-      className="jsx-1756277576"
+      className="jsx-490724098"
     >
       a link blog by 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://melaniekat.com"
         rel="me"
       >
@@ -102,11 +102,11 @@ exports[`component - layout should render with props 1`] = `
        &lt;3
     </p>
     <p
-      className="jsx-1756277576"
+      className="jsx-490724098"
     >
       logo by 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://www.savinaxu.com"
       >
         savina xu
@@ -114,7 +114,7 @@ exports[`component - layout should render with props 1`] = `
        • 
       links from 
       <a
-        className="jsx-1756277576"
+        className="jsx-490724098"
         href="https://raindrop.io/collection/9554731"
         rel="me"
       >
