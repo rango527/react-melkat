@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types'
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const cx = {
   main: 'measure measure-wide-l center sans-serif ph2',
   header: 'lh-title fw1 f2 pb3-l mb4-l',
   headerLink: 'no-underline',
-  logo: 'mr2 h3 v-mid',
+  logo: 'dib mr2 v-mid',
   footer: 'lh-copy tc'
 }
 
@@ -63,7 +64,15 @@ const Layout = ({ title, description, children, className, cover }) => {
       <h1 className={cx.header}>
         <Link href='/'>
           <a className={cx.headerLink}>
-            <img src='/logo.png' alt='illustration by supasavina' className={cx.logo} />
+            <div className={cx.logo}>
+              <Image
+                src='/logo.png'
+                alt='illustration by supasavina'
+                className={cx.logo}
+                width={61}
+                height={64}
+              />
+            </div>
             melkat.link
           </a>
         </Link>
