@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const cx = {
   a: 'link underline',
-  h2: 'lh-title fw6 f4 mb3'
+  h2: 'lh-title fw6 f4 mt0 mb3'
 }
 
 const Title = ({ title, link }) => {
