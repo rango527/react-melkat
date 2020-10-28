@@ -66,11 +66,10 @@ const Layout = ({ title, description, children, className, cover }) => {
           <a className={cx.headerLink}>
             <div className={cx.logo}>
               <Image
-                src='/logo.png'
                 alt='illustration by supasavina'
-                className={cx.logo}
-                width={61}
                 height={64}
+                src='/logo.png'
+                width={61}
               />
             </div>
             melkat.link
