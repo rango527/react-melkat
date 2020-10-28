@@ -1,17 +1,20 @@
 import PropTypes from 'prop-types'
+import { useInView } from 'react-intersection-observer'
 
 const cx = {
   img: 'cover bg-center h3 w3 w4-l br2 pa0 ma0 ml2 mb2 fr'
 }
 
 const Image = ({ cover }) => {
+  const { ref, inView } = useInView({ triggerOnce: true })
   if (!cover) return null
   return (
     <div
-      className={cx.img}
-      role='img'
       aria-label='Preview image'
-      style={{ backgroundImage: `url(${cover})` }}
+      className={cx.img}
+      ref={ref}
+      role='img'
+      style={inView ? { backgroundImage: `url(${cover})` } : {}}
     />
   )
 }

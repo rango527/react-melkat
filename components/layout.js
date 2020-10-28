@@ -2,6 +2,9 @@ import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import polyfills from '../utils/polyfills'
+
+polyfills()
 
 const cx = {
   main: 'measure measure-wide-l center sans-serif ph2',
@@ -68,6 +71,7 @@ const Layout = ({ title, description, children, className, cover }) => {
               <Image
                 alt='illustration by supasavina'
                 height={64}
+                sizes={[61, 122, 183]}
                 src='/logo.png'
                 width={61}
               />
