@@ -71,7 +71,7 @@ const Layout = ({ title, description, children, className, cover }) => {
               <Image
                 alt='illustration by supasavina'
                 height={64}
-                sizes={[61, 122, 183]}
+                loading='eager'
                 src='/logo.png'
                 width={61}
               />
